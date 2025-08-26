@@ -6,6 +6,10 @@ import { Navbar } from './components/Navbar';
 import { MobileMenu } from './components/MobileMenu';
 import { useState } from 'react';
 
+// Section import 
+import { Home } from './components/section/Home';
+import { About } from './components/section/About';
+
 function App() {
   // โหลดเสร็จแล้ว
   const [isLoaded, setIsLoaded] = useState(false);
@@ -20,6 +24,8 @@ function App() {
     <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"}`}>
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Home />
+      <About />
     </div>
   </>;
 }

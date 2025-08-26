@@ -11,7 +11,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <a href="#home" className="text-xl font-bold">
-                        <span className="text-amber-500">THAKSI</span>.portfolio
+                        <span className="text-purple-500">THAKSI</span>.portfolio
                     </a>
 
                     {/* mobile menu : จะแสดงเมื่อหน้าจอมีขนาดเล็กกว่า md */}
