@@ -9,6 +9,8 @@ import { useState } from 'react';
 // Section import 
 import { Home } from './components/section/Home';
 import { About } from './components/section/About';
+import { Projects } from './components/section/Project';
+import { Contact } from './components/section/Contact';
 
 function App() {
   // โหลดเสร็จแล้ว
@@ -26,6 +28,8 @@ function App() {
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Home />
       <About />
+      <Projects />
+      <Contact />
     </div>
   </>;
 }
