@@ -60,7 +60,7 @@ return <>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-4">
 
                     {/* Facebook */}
-                    <a href="https://www.facebook.com/loq.chanin" target="_blank" rel="noreferrer" className="text-center p-4 rounded-lg transition relative overflow-hidden hover:bg-black/20 hover:border hover:border-purple-600 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.5)] flex flex-col items-center justify-center">
+                    <a href="https://www.facebook.com/IPPKS1322/" target="_blank" rel="noreferrer" className="text-center p-4 rounded-lg transition relative overflow-hidden hover:bg-black/20 hover:border hover:border-purple-600 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.5)] flex flex-col items-center justify-center">
                         <i className="fa-brands fa-facebook text-2xl mb-2 text-blue-400"></i>
                         <span className="text-sm">Facebook</span>
                     </a>
