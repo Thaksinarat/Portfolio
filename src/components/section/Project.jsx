@@ -38,7 +38,7 @@ export const Projects = () => {
                             <h3 className="text-xl text-bold mb-2"> Project Melody</h3>
                             {/* Description */}
                             <p className="text-white/90 mb-4">
-                                Melody is a simple game developed using Java as part of an Object-Oriented Programming (OOP) project. This repository contains the full source code and build files necessary to run and explore the game.
+                                Melody is a simple game developed using Java as part of an Object-Oriented Programming (OOP) project. This is story-driven game where player can explore another planets. Player has to decidde their own path and solve the mystery of the disks.
                             </p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
