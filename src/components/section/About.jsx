@@ -40,7 +40,7 @@ export const About = () => {
 
     // skills
     const frontendSkills = ["HTML", "CSS", "Javascript", "Typescript", "React", "TailwindCSS", "Vue"]
-    const backendSkills = ["Node.js", "Express.js", "SQL server", "Prisma"]
+    const backendSkills = ["Node.js", "Express.js", "SQL", "Prisma"]
     const programLangs = ["C", "Python", "Java"]
     const designSkills = ["Procreate", "Figma", "Canva", "Adobe Illustrtor", "IbisPaint", "Blender"]
 
@@ -92,7 +92,7 @@ export const About = () => {
 
                             {/*Intern Experiences */}
                             <div>
-                                <h3 className="text-xl font-bold mb-2">💻 Intern Experience</h3>
+                                <h3 className="text-xl font-bold mb-2">💻 Internship Experience</h3>
                                 <div className="flex flex-col gap-6">
                                     {myIntern.map((intern, key) => (
                                         <div key={key} className="py-1 px-3">

@@ -90,7 +90,7 @@ export const Projects = () => {
                             </p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "Javascript", "HTML", "CSS", "TailwindCSS", "Vue"].map((skill, key) => (
+                                {["React", "Javascript", "HTML", "CSS", "TailwindCSS"].map((skill, key) => (
                                     <span
                                         key={key}
                                         className="bg-amber-500/10 text-amber-500 py-1 px-3 rounded-full text-sm hover:bg-amber-500/20 hover:shadow-[0_2px_8px_rgbs(139,92,246,0.2)] transition-all">
