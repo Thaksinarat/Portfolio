@@ -125,7 +125,7 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center">
-                                <a href="https://github.com/Thaksinarat/BookingMeetingRoom" target="_blank" className="text-purple-400 hover:text-purple-300 transition-color my-4">View Project →</a>
+                                <a href="https://github.com/Thaksinarat/Water_Price" target="_blank" className="text-purple-400 hover:text-purple-300 transition-color my-4">View Project →</a>
                             </div>
                         </div>
 
