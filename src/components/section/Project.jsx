@@ -100,7 +100,32 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center">
-                                <a href="http://localhost:5173/#home" target="_blank" className="text-purple-400 hover:text-purple-300 transition-color my-4">View Project →</a>
+                                <a href="https://thaksinarat.github.io/Portfolio/" target="_blank" className="text-purple-400 hover:text-purple-300 transition-color my-4">View Project →</a>
+                            </div>
+                        </div>
+
+                        
+                        {/* BookingMeetingRoom */}
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px_8px_rgbs(59,130,246,0.2)] transition-all">
+                            {/* Name's Project */}
+                            <h3 className="text-xl text-bold mb-2"> Booking-Meeting-Room</h3>
+                            {/* Description */}
+                            <p className="text-white/90 mb-4">
+                                This is my Introduction to Artificial Intelligence coruse project. It's a booking system that optimizes meeting room allocation using AI algorithms to enhance efficiency and user experience.
+                            </p>
+
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Python", "PyThaiNLP", "RandomForest"].map((skill, key) => (
+                                    <span
+                                        key={key}
+                                        className="bg-amber-500/10 text-amber-500 py-1 px-3 rounded-full text-sm hover:bg-amber-500/20 hover:shadow-[0_2px_8px_rgbs(139,92,246,0.2)] transition-all">
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex justify-between items-center">
+                                <a href="https://github.com/Thaksinarat/BookingMeetingRoom" target="_blank" className="text-purple-400 hover:text-purple-300 transition-color my-4">View Project →</a>
                             </div>
                         </div>
 
