@@ -105,13 +105,37 @@ export const Projects = () => {
                         </div>
 
                         
+                        {/* WaterPrice */}
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px_8px_rgbs(59,130,246,0.2)] transition-all">
+                            {/* Name's Project */}
+                            <h3 className="text-xl text-bold mb-2"> Water Price</h3>
+                            {/* Description */}
+                            <p className="text-white/90 mb-4">
+                                Water Price is a project created for my mother and local village water fee collectors who currently have no system to help calculate monthly water charges. In the future, I plan to expand it to store monthly water usage data for each household. 
+                            </p>
+
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Javascript", "CSS", "HTML"].map((skill, key) => (
+                                    <span
+                                        key={key}
+                                        className="bg-amber-500/10 text-amber-500 py-1 px-3 rounded-full text-sm hover:bg-amber-500/20 hover:shadow-[0_2px_8px_rgbs(139,92,246,0.2)] transition-all">
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex justify-between items-center">
+                                <a href="https://github.com/Thaksinarat/BookingMeetingRoom" target="_blank" className="text-purple-400 hover:text-purple-300 transition-color my-4">View Project →</a>
+                            </div>
+                        </div>
+
                         {/* BookingMeetingRoom */}
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px_8px_rgbs(59,130,246,0.2)] transition-all">
                             {/* Name's Project */}
                             <h3 className="text-xl text-bold mb-2"> Booking-Meeting-Room</h3>
                             {/* Description */}
                             <p className="text-white/90 mb-4">
-                                This is my Introduction to Artificial Intelligence coruse project. It's a booking system that optimizes meeting room allocation using AI algorithms to enhance efficiency and user experience.
+                               This is a collaborative project developed for an AI course, designed to optimize meeting room allocation in the CoC building.  The system uses AI to process user inputs, extract key details, and calculate heuristic values to improve efficiency in room booking.  
                             </p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
