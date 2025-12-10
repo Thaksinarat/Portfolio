@@ -10,6 +10,7 @@ import { useState } from 'react';
 import { Home } from './components/section/Home';
 import { About } from './components/section/About';
 import { Projects } from './components/section/Project';
+import { Artwork } from './components/section/Artwork';
 import { Contact } from './components/section/Contact';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Artwork />
       <Contact />
     </div>
   </>;

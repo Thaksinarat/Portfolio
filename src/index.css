@@ -11,6 +11,7 @@ html, body {
 
 /* ตั้งค่าตัวโหลด - เพิ่ม animation */
 @layer utilities {
+  /* กระพริบ */
   @keyframes blink {
     0%, 100% {
       opacity: 1;
@@ -24,6 +25,7 @@ html, body {
     animation: blink 0.8s step-end infinite;
   }
 
+  /* โหลด */
     @keyframes loading {
     0% {
       transform: translate(-100%);
@@ -36,6 +38,32 @@ html, body {
   .animate-loading-bar {
     animation: loading 1s ease infinite;
   }
+
+  /* ลูปขวาไปซ้าย */
+  @keyframes loop_right {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .animate-loop-right {
+    animation: loop_right 30s linear infinite;
+  }
+
+  /* ลูปซ้ายไปขวา */
+  @keyframes loop_left {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .animate-loop-left {
+    animation: loop_left 30s linear infinite;
+  }
 }
 
 .reveal {
@@ -47,4 +75,14 @@ html, body {
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* ซ่อน Scrollbar ในส่วนงาน Artwork */
+.scroll-hide::-webkit-scrollbar {
+  display: none; /* สำหรับ Chrome, Safari */
+}
+
+.scroll-hide {
+  -ms-overflow-style: none;  /* สำหรับ IE และ Edge */
+  scrollbar-width: none;     /* สำหรับ Firefox */
 }
