@@ -49,7 +49,7 @@ html, body {
     }
   }
   .animate-loop-right {
-    animation: loop_right 30s linear infinite;
+    animation: loop_right 60s linear infinite;
   }
 
   /* ลูปซ้ายไปขวา */
@@ -62,7 +62,7 @@ html, body {
     }
   }
   .animate-loop-left {
-    animation: loop_left 30s linear infinite;
+    animation: loop_left 60s linear infinite;
   }
 }
 

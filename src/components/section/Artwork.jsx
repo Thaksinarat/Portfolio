@@ -11,86 +11,84 @@ export const Artwork = () => {
                         {/* Digital Art group */}
                         <div className="carousel w-screen max-w-full flex mx-auto overflow-x-auto scroll-hide gap-2">
                             <div className="group animate-loop-right flex items-center justify-center gap-2">
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">
-                                    <img src="\Artworks\DigitalArt01\00.PNG" alt="DigitalArt 1" className="h-full w-full object-cover rounded-lg" />
-                                </div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">2</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">3</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">4</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">5</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">6</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">7</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">8</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">9</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">10</div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/1.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/2.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/3.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/4.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/5.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/6.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/7.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/8.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/9.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/10.png')] rounded-lg text-center content-center"></div>
                             </div>
                             <div aria-hidden className="group animate-loop-right flex items-center justify-center gap-2">
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">1</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">2</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">3</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">4</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">5</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">6</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">7</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">8</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">9</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">10</div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/1.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/2.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/3.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/4.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/5.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/6.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/7.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/8.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/9.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt01/10.png')] rounded-lg text-center content-center"></div>
                             </div>
                         </div>
 
                         {/* Digital Art group */}
-                        <div className="carousel flex w-screen max-w-full mx-auto overflow-x-auto scroll-hide gap-2 mt-10">
+                        <div className="carousel flex w-screen max-w-full mx-auto overflow-x-auto scroll-hide gap-2 mt-5">
                             <div className="group animate-loop-left flex items-center justify-center gap-2">
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">1</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">2</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">3</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">4</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">5</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">6</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">7</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">8</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">9</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">10</div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/1.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/2.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/3.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/4.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/5.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/6.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/7.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/8.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/9.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/10.png')] rounded-lg text-center content-center"></div>
                             </div>
                             <div aria-hidden className="group animate-loop-left flex items-center justify-center gap-2">
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">1</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">2</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">3</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">4</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">5</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">6</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">7</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">8</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">9</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">10</div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/1.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/2.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/3.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/4.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/5.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/6.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/7.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/8.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/9.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/DigitalArt02/10.png')] rounded-lg text-center content-center"></div>
                             </div>
                         </div>
 
                         {/* 3D Art group */}
-                        <div className="carousel flex w-screen max-w-full mx-auto overflow-x-auto scroll-hide gap-2 mt-10">
+                        <div className="carousel flex w-screen max-w-full mx-auto overflow-x-auto scroll-hide gap-2 mt-5">
                             <div className="group animate-loop-right flex items-center justify-center gap-2">
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">1</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">2</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">3</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">4</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">5</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">6</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">7</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">8</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">9</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">10</div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/1.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/2.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/3.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/4.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/5.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/6.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/7.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/8.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/9.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/10.png')] rounded-lg text-center content-center"></div>
                             </div>
                             <div aria-hidden className="group animate-loop-right flex items-center justify-center gap-2">
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">1</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">2</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">3</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">4</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">5</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">6</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">7</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">8</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">9</div>
-                                <div className="card h-[200px] w-[200px] p-1 bg-blue-500 rounded-lg text-center content-center">10</div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/1.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/2.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/3.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/4.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/5.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/6.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/7.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/8.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/9.png')] rounded-lg text-center content-center"></div>
+                                <div className="card h-[200px] w-[200px] p-1 bg-[url('/Artworks/Art3D/10.png')] rounded-lg text-center content-center"></div>
                             </div>
                         </div>
 
