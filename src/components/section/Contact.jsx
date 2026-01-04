@@ -64,24 +64,16 @@ return <>
                         <i className="fa-brands fa-facebook text-2xl mb-2 text-blue-400"></i>
                         <span className="text-sm">Facebook</span>
                     </a>
-                    {/* Line */}
-                    <button onClick={() => {
-                        navigator.clipboard.writeText("ippks_1322");
-                        alert("copied !");
-                    }}
-                        className="text-center p-4 rounded-lg transition relative overflow-hidden hover:bg-black/20 hover:border hover:border-purple-600 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.5)] flex flex-col items-center justify-center hover:cursor-pointer">
-                        <i className="fa-brands fa-line text-2xl mb-2 text-green-500"></i>
-                        <span className="text-sm">Line ID</span>
-                    </button>
-                    {/* Call */}
-                    <button onClick={() => {
-                        navigator.clipboard.writeText("0964052282");
-                        alert("copied !");
-                    }}
-                        className="text-center p-4 rounded-lg transition relative overflow-hidden hover:bg-black/20 hover:border hover:border-purple-600 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.5)] flex flex-col items-center justify-center hover:cursor-pointer">
-                        <i className="fa-solid fa-phone text-2xl mb-2 text-orange-400"></i>
-                        <span className="text-sm">Tel.</span>
-                    </button>
+                    {/* IG */}
+                    <a href="https://www.instagram.com/ssa_tta_/" target="_blank" rel="noreferrer" className="text-center p-4 rounded-lg transition relative overflow-hidden hover:bg-black/20 hover:border hover:border-purple-600 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.5)] flex flex-col items-center justify-center">
+                        <i className="fa-brands fa-instagram text-2xl mb-2 text-pink-400"></i>
+                        <span className="text-sm">Instrgram</span>
+                    </a>
+                    {/* Github */}
+                    <a href="https://github.com/Thaksinarat/" target="_blank" rel="noreferrer" className="text-center p-4 rounded-lg transition relative overflow-hidden hover:bg-black/20 hover:border hover:border-purple-600 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.5)] flex flex-col items-center justify-center">
+                        <i className="fa-brands fa-github text-2xl mb-2 text-gray-400"></i>
+                        <span className="text-sm">Github</span>
+                    </a>
                     {/* Linkin */}
                     <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHXqSD19om6qgAAAZjsDSBgtP8rsPXEBB76lozxGxCdUhbcXLfpBm8ZeBk2rNyi3vamM3zboBPBByFnB_wnqM4MYmCENpF2Kv7NRfSCGSS3Iq0Qbx4a23SZj39uEHy13jyVGSo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2F%25E0%25B8%2597%25E0%25B8%25B1%25E0%25B8%2581%25E0%25B8%25A9%25E0%25B8%25B4%25E0%25B8%2593%25E0%25B8%25B2%25E0%25B8%25A3%25E0%25B8%25B1%25E0%25B8%2595%25E0%25B8%25A2%25E0%25B9%258C-%25E0%25B8%259E%25E0%25B8%25B1%25E0%25B8%2592%25E0%25B8%25AA%25E0%25B8%2587%25E0%25B8%2584%25E0%25B9%258C-6a5413353%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app" target="_blank" rel="noreferrer" className="text-center p-4 rounded-lg transition relative overflow-hidden hover:bg-black/20 hover:border hover:border-purple-600 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.5)] flex flex-col items-center justify-center">
                         <i className="fa-brands fa-linkedin text-2xl mb-2 text-cyan-400"></i>
